@@ -1,0 +1,15 @@
+.bg-purple-blue-white{
+ background: linear-gradient(#6e026e,#0173b1, #fff);   
+}
+.full-screen{
+    position:fixed;
+    height: 100%;
+    width: 100%;
+}
+.center-vertical{
+    position: relative;
+    top:20%;
+}
+.bg-purple{
+    background:linear-gradient(#970697,#42024e); 
+}
