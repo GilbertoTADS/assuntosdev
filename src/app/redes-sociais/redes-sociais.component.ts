@@ -7,7 +7,11 @@ import { Component, OnInit } from '@angular/core';
 })
 export class RedesSociaisComponent implements OnInit {
   logotipo:string = './../assets/logo-antigo.png'
-  redes_sociais = ['instagram', 'whatsapp', 'youtube', 'telegram']
+  redes_sociais = [
+    {rede:'instagram',endereco:'https://www.instagram.com/assuntosdev/'}, 
+    {rede:'whatsapp',endereco:'https://wa.me/message/EFLPAWQW7QVKN1'},
+    {rede:'youtube',endereco:'https://www.youtube.com/channel/UCdkn7Ps55eiG3mBsmCgRTSQ'}
+  ]
   constructor() { }
 
   ngOnInit(): void {
